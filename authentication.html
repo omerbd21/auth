@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Authentication </title>
+	<link rel="stylesheet" type="text/css" href="auth.css">
+</head>
+<body style="background-color:green">
+	<h1>Please enter your email address, your username and your password. </h1>
+	<div id="rectangle">
+<form name="myForm" action="redirect.html" onsubmit="return validateForm()" method="post" style="color:white">
+email: <input type="text" name="email"><br><br></input>
+username: <input type="text" name="uname"><br><br></input>
+password:<input type="password" name="pass" id="pass"><br><br></input>
+<input type="checkbox" onclick="ShowPass()">Show Password </input>
+<input type="submit" value="Submit"> </input>
+</form>
+</div>
+<script src="auth.js" ></script>
+</html>

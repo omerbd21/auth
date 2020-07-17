@@ -1,0 +1,14 @@
+h1{
+	color:white;
+	max-width:800px;
+	margin:auto;
+	font-weight:bold;
+	font-style:italic;
+}
+#rectangle{
+	background:black;
+	height:450px;
+	width:350px;
+	position:absolute;
+	right:500px
+}
